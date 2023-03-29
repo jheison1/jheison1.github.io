@@ -1,0 +1,234 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+   
+}
+
+.header{
+    background-image: url('../PaginaHTML/Recursos/Imagenes/Orizontal.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    /*border: 1px solid rgb(78, 14, 226);*/
+    margin: auto;
+    text-align: center;  
+    padding: 10px 1px; 
+    
+    
+}
+
+.logo{
+    color: #b60707; margin-top: 20px;
+    width: 30%;
+    float: left;
+    text-align: left;
+    right: 100px;
+
+}
+
+.titulo-principal-logo{
+    right: 10px;
+    margin-left: 50px;
+}
+
+.menu-principal{
+    width: 42%;
+    float: right ;
+    border-radius: 100% #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+    
+
+}
+
+.menu-principal:hover{    
+    color: #b60707;
+}
+
+.menu-principal ul{}
+
+.menu-principal ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+.menu-principal ul li a{
+    color: rgb(199, 211, 221);
+    text-decoration: none;
+}
+
+/*contenedores izquierda y derecha*/
+ 
+.izquierda, .derecha{
+    width: 49%;
+    height: auto; overflow: hidden;
+    border: px solid #fff;
+    display: inline-block;
+}
+
+.izquierda{float: left; text-align: left;}
+
+.subtitulo{
+    color: #b60707;
+}
+
+.titulo-principal{
+    color: chocolate;
+    font-size: 60px;
+}
+
+.descripcion{
+    color: lightseagreen;
+    font-weight: 300;
+}
+
+.boton-contratar{
+    padding: 17px 35px;
+    background-color: #b60707;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+
+}
+
+.derecha{float: right;}
+
+.img-prese{
+    width: px;
+    height: px;
+}
+
+/* Por que elegirnos*/
+
+.bloque-elegir{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid rgb(8, 238, 104);
+    margin: auto;
+    text-align: center;    
+    padding-left: 50px;
+    display: flex;
+}
+
+.centrar2{
+    display: flex;
+}
+
+.derecha-bloque2{
+    width: 25em;
+    float: right;
+    margin-left: 1px;
+    margin-top: 60px;
+    
+}
+
+
+
+.img-elige{
+    width: 30em;
+    margin-left: 1em;
+    nav-left: auto;
+    display: flex;
+}
+
+.texto-naranja{
+    color: #f94f2b;
+    border-radius: 100px;
+    background-origin: padding-box;
+}
+
+.porque{
+    font-size: 30px;
+}
+
+.parrafo1{
+    font-weight: 300;
+    color: #7d7a7a;
+}
+
+.notificaciones{
+    height: auto;
+    overflow: hidden;
+    background-image: url('../PaginaHTML/Recursos/Imagenes/Orizontal.jpg.jpg');
+    padding: 80px px;
+    border: 1px solid rgb(8, 238, 104);
+    
+}
+
+.notificaciones h4{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.formulario-notificacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 1em; 
+
+}
+
+.entrada-not{
+    width: 89x;
+    padding: 1em;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: rgba(230, 206, 206, 0.918);
+    border-radius: 10px;
+    display: flex;
+}
+
+.boton-not{
+    padding: 17px 35px;
+    background-color: #b60707;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+
+/*pie de pagina*/
+
+/*footer*/
+
+.pie-pagina{
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    background-color: rgba(206, 38, 38, 0.781);
+    margin-top: auto;
+    margin-left: 1em;
+}
+
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.rubia{
+    width: 20px;
+}

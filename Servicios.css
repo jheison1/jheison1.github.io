@@ -1,0 +1,84 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menu-principal{
+    width: 42%;
+    float: right ;
+    border-radius: 100% #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+    padding-top: 1px;
+    margin: 20px;
+    
+
+}
+
+.titulo-principal2{
+    margin-top: px;
+    color: blue;
+    margin: center;
+    width: 90%;
+    height: ;
+    overflow: hidden;
+    border: 1px solid rgb(8, 238, 104);
+    margin-left: 90px;
+    text-align: center;    
+    padding-left: 60px;
+    display: flex;
+}
+
+.opciones{
+    width: 7em;
+    display: flex;
+    margin-left: 60px;
+   
+}
+
+.imagenes{
+    width: 20em;
+    display: flex;
+    border: solid 2px #ccc;
+    display: flex;
+    margin-left: 50px;
+
+}
+
+h3{
+    margin-left: 100px;
+    
+}
+
+.titulo-articulos{
+    margin-left: 48px;
+}
+
+
+/*footer*/
+
+.pie-pagina{
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    background-color: rgba(206, 38, 38, 0.781);
+    margin-top: auto;;
+    margin-top: auto;
+    margin-left: 1em;
+}
+
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.rubia{
+    width: 20px;
+}
+
+
